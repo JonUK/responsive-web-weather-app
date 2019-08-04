@@ -1,0 +1,43 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-size: 100%;
+  background-color: gray;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.location-and-date {
+  width: 100%;
+  border: 3px solid blue;
+}
+
+.current-temperature {
+  width: 100%;
+  border: 3px solid yellow;
+}
+
+.current-stats {
+  width: 100%;
+  border: 3px solid red;
+}
+
+.weather-by-hour {
+  display: none;
+  width: 100%;
+  border: 3px solid blue;
+}
+
+.next-5-days {
+  width: 100%;
+  border: 3px solid yellow;
+}
