@@ -16,6 +16,14 @@ body {
   flex-wrap: wrap;
 }
 
+@media screen and (min-width: 1140px) {
+  .main-container {
+    width: 1120px;
+    margin: 8px auto;
+    font-size: 1.1em;
+  }
+}
+
 .location-and-date {
   width: 100%;
   border: 3px solid blue;
@@ -31,10 +39,23 @@ body {
   border: 3px solid red;
 }
 
+@media screen and (min-width: 1024px) {
+  .current-temperature,
+  .current-stats {
+    width: 50%;
+  }
+}
+
 .weather-by-hour {
   display: none;
   width: 100%;
   border: 3px solid blue;
+}
+
+@media screen and (min-width: 1024px) {
+  .weather-by-hour {
+    display: block;
+  }
 }
 
 .next-5-days {
