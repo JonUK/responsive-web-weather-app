@@ -30,7 +30,12 @@ body {
 
 .location-and-date {
   width: 100%;
-  border: 3px solid blue;
+}
+
+.location-and-date__location {
+  margin: 0;
+  font-size: 2em;
+  font-weight: 600;
 }
 
 .current-temperature {
