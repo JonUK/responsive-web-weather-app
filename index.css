@@ -7,8 +7,12 @@
 body {
   margin: 16px;
   font-size: 100%;
-  background-color: gray;
   font-family: 'Open Sans', sans-serif;
+  color: white;
+  height: 100%;
+  background: linear-gradient(to bottom, rgb(43,50,178) 0%, rgb(20,136,204) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .main-container {
