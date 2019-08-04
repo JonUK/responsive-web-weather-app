@@ -65,8 +65,7 @@ body {
 
 .current-temperature__summary {
   margin-top: -0.5em;
-  margin-left: 0.6em;
-  text-align: left;
+  margin-left: -0.6em;
   font-size: 1.125em;
 }
 
