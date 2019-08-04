@@ -75,7 +75,7 @@ body {
   border: 3px solid red;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   .current-temperature,
   .current-stats {
     width: 50%;
@@ -88,7 +88,7 @@ body {
   border: 3px solid blue;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   .weather-by-hour {
     display: block;
   }
