@@ -39,8 +39,35 @@ body {
 }
 
 .current-temperature {
+  display: flex;
+  margin-top: 0.25em;
   width: 100%;
-  border: 3px solid yellow;
+}
+
+.current-temperature__icon-container {
+  flex-grow: 1.25;
+  text-align: center;
+}
+
+.current-temperature__content-container {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.current-temperature__icon {
+  width: 10.5em;
+}
+
+.current-temperature__value {
+  font-size: 5.25em;
+  font-weight: 300;
+}
+
+.current-temperature__summary {
+  margin-top: -0.5em;
+  margin-left: 0.6em;
+  text-align: left;
+  font-size: 1.125em;
 }
 
 .current-stats {
