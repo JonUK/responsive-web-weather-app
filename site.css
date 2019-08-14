@@ -71,8 +71,31 @@ body {
 }
 
 .current-stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
   width: 100%;
-  border: 3px solid red;
+  border-top: 1px solid rgba(255,255,255,0.5);
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+
+@media screen and (min-width: 768px) {
+  .current-stats {
+    padding-bottom: 0;
+    border-top: none;
+    border-bottom: none;
+    border-left: 1px solid rgba(255,255,255,0.5);
+  }
+}
+
+.current-stats__value {
+  margin-top: 1em;
+  font-size: 1.44em;
+}
+
+.current-stats__label {
+  color: rgba(255,255,255,0.6);
 }
 
 @media screen and (min-width: 768px) {
