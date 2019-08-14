@@ -65,8 +65,8 @@ body {
 
 .current-temperature__summary {
   margin-top: -0.5em;
-  margin-left: 0.6em;
-  text-align: left;
+  margin-left: -0.6em;
+  text-align: center;
   font-size: 1.125em;
 }
 
@@ -108,7 +108,6 @@ body {
 .weather-by-hour {
   display: none;
   width: 100%;
-  border: 3px solid blue;
 }
 
 @media screen and (min-width: 768px) {
@@ -117,7 +116,38 @@ body {
   }
 }
 
+.weather-by-hour__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-by-hour__heading {
+  color: rgba(255,255,255,0.8);
+  font-size: 1.125em;
+  font-weight: normal;
+}
+
+.weather-by-hour__item {
+  padding: 0.8em 0;
+  width: 13%;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0.15);
+  font-size: 1.125em;
+  text-align: center;
+}
+
+@media screen and (min-width: 900px) {
+  .weather-by-hour__item {
+    width: 6.25em;
+  }
+}
+
+.weather-by-hour__hour {
+  margin-bottom: 0.5em;
+}
+
 .next-5-days {
+  margin-top: 2em;
   width: 100%;
   border: 3px solid yellow;
 }
