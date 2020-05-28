@@ -28,12 +28,11 @@ body {
 
 @media screen and (min-width: 920px) {
   .main-container {
-    width: 900px;
+    width: 880px;
     margin: 8px auto;
     font-size: 1.1em;
   }
 }
-
 
 
 /* location-and-date */
@@ -162,9 +161,9 @@ body {
   text-align: center;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 880px) {
   .weather-by-hour__item {
-    width: 6.20em;
+    width: 6.05em;
   }
 }
 
